@@ -6,6 +6,10 @@
 h1{
  font-family:Josefin Sans;   
 }
+h5{
+ font-family: Cutive Mono;
+ font-weight: 2px;
+}
 #header{
    height:20px;
 }
