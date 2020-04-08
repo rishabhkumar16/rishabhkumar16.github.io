@@ -294,27 +294,18 @@ form .submit:hover{
     *{
         overflow-x: hidden  ;
     }
-    .particles-js{
-        position: relative;
+    .intro h1{
+        font-size: 26px;
     }
-    .userbox{
-        
-        left: 2%;
-        text-align: center;
-        position: relative;
-    }
-    .userbox h1{
+    .intro h2{
+        padding: 0;
         font-size: 20px;
     }
-    .userbox h5{
-        padding: 0;
-        font-size: 16px;
+    .intro .icon, .userbox .arrow-icon{
+        font-size: 24px !important;
     }
-    .userbox .icon, .userbox .arrow-icon{
-        font-size: 16px;
-    }
-    .userbox .arrow-icon{
-        display: none;
+    .intro .arrow-icon{
+        font-size: 33px;
     }
     .about img{
         height: 85% !important;
@@ -325,8 +316,11 @@ form .submit:hover{
     }
     
     .form{
-        margin-left: -25px;
+        margin-left: -65px;
        
+    }
+    .contact-title h2{
+        font-size: 20px;
     }
     .form input, .form textarea{
         width: 300px !important;
@@ -338,6 +332,7 @@ form .submit:hover{
         font-size: 40px;
         bottom: -30px !important;
     }
+   
    
 }
 
