@@ -332,7 +332,9 @@ form .submit:hover{
         font-size: 40px;
         bottom: -30px !important;
     }
-   
+    .footer-icon .icon{
+      font-size: 24px;   
+    }
    
 }
 
