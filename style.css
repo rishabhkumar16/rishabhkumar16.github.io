@@ -2,6 +2,7 @@
 @import url('https://fonts.googleapis.com/css?family=Cutive+Mono');
 *{
     scroll-behavior: smooth;
+    
 }
 h1{
  font-family:Josefin Sans;   
@@ -261,6 +262,9 @@ form .submit:hover{
     color: rgb(85, 85, 85) !important;
 }
 @media screen and (max-width:968px){
+    *{
+     overflow-x: hidden;   
+    }
     .particles-js{
         position: relative;
     }
