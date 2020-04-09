@@ -334,7 +334,10 @@ form .submit:hover{
         text-align: center;
     }
     .social-icons{
-        position: sticky;
+        display: none;
+    }
+    .resume{
+        margin-top: 110px;
     }
     .form{
         margin-left: -65px;
