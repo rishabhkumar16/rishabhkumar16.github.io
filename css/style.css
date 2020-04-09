@@ -317,11 +317,12 @@ form .submit:hover{
     p{
         font-size: 16px !important;
     }
-    .intro .icon, .arrow-icon{
+    .intro .icon{
         font-size: 20px !important;
+         padding: 10px !important;
     }
     .intro .arrow-icon{
-        font-size: 33px;
+        font-size: 34px;
     }
     .nav-bar{
         position: sticky;
