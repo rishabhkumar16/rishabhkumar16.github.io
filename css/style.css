@@ -291,9 +291,16 @@ form .submit:hover{
     color: rgb(85, 85, 85) !important;
 }
 @media screen and (max-width:968px){
-    *{
+       *{
         overflow-x: hidden  ;
     }
+
+    /* .userbox{
+        
+        left: 2%;
+        text-align: center;
+        position: relative;
+    } */
     .intro h1{
         font-size: 26px;
     }
@@ -301,11 +308,23 @@ form .submit:hover{
         padding: 0;
         font-size: 20px;
     }
-    .intro .icon, .userbox .arrow-icon{
-        font-size: 24px !important;
+    h3{
+        font-size: 20px !important;
+    }
+    h4{
+        font-size: 18px !important;
+    }
+    p{
+        font-size: 16px !important;
+    }
+    .intro .icon, .arrow-icon{
+        font-size: 20px !important;
     }
     .intro .arrow-icon{
         font-size: 33px;
+    }
+    .nav-bar{
+        position: sticky;
     }
     .about img{
         height: 85% !important;
@@ -314,7 +333,9 @@ form .submit:hover{
     .resume, #contact, .about{
         text-align: center;
     }
-    
+    .social-icons{
+        position: sticky;
+    }
     .form{
         margin-left: -65px;
        
@@ -333,7 +354,7 @@ form .submit:hover{
         bottom: -30px !important;
     }
     .footer-icon .icon{
-      font-size: 24px;   
+        font-size: 20px
     }
    
 }
