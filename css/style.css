@@ -291,9 +291,9 @@ form .submit:hover{
     color: rgb(85, 85, 85) !important;
 }
 @media screen and (max-width:968px){
-       *{
+       /* *{
         overflow-x: hidden  ;
-    }
+    } */
 
     /* .userbox{
         
@@ -363,3 +363,22 @@ form .submit:hover{
    
 }
 
+.preloader{
+    position: fixed;
+    top:0;
+    left:0;
+    bottom: 0;
+    right: 0;
+    background: #fff;
+    z-index: 99999;
+  }
+  
+  .preloader .preloader-gif{
+    display: block;
+    /* width: 250px;
+    height: 250px; */
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);   
+  }
